@@ -7,7 +7,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-6.0+-blue)](https://www.typescriptlang.org/)
 
 A minimal **Bun**-based library pre-wired for
-[pkg.pr.new](https://github.com/stackblitz-labs/pkg.pr.new) continuous preview releases.  
+[pkg.pr.new](https://github.com/stackblitz-labs/pkg.pr.new) continuous preview releases.
 Every push and pull request automatically publishes a preview build — no NPM access required.
 
 ## Quick start
@@ -36,14 +36,10 @@ bun add https://pkg.pr.new/try-pkg-pr@<sha>
 ## API
 
 ```ts
-import { greet, add, subtract, multiply, version } from "try-pkg-pr";
+import { greet, version } from "try-pkg-pr";
 
 greet({ name: "World" }); // "Hello, World!"
 greet({ name: "World", loud: true }); // "HELLO, WORLD!"
-
-add(2, 3); // 5
-subtract(10, 4); // 6
-multiply(3, 4); // 12
 
 version; // "0.1.0"
 ```
@@ -53,7 +49,6 @@ version; // "0.1.0"
 ```bash
 bunx try-pkg-pr greet Alice
 bunx try-pkg-pr greet Alice --loud
-bunx try-pkg-pr add 3 7
 bunx try-pkg-pr version
 ```
 
@@ -68,11 +63,6 @@ bunx try-pkg-pr version
 | `bun run format`          | Format with oxfmt                        |
 | `bun run typecheck`       | TypeScript check                         |
 | `bun run publish:preview` | Publish preview via pkg.pr.new (CI only) |
-
-## Documentation
-
-- [Usage](./docs/usage.md) — API reference, CLI, preview install
-- [Architecture](./docs/architecture.md) — CI flow, toolchain
 
 ## Tech stack
 

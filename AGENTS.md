@@ -22,16 +22,13 @@ A Bun-based library wired up for [pkg.pr.new](https://github.com/stackblitz-labs
 src/
   index.ts      — public re-exports
   greet.ts      — greet() function
-  math.ts       — add / subtract / multiply
   version.ts    — version constant
   cli.ts        — CLI entry
 tests/
   greet.test.ts
-  math.test.ts
   integration.test.ts
 .github/workflows/
-  ci.yml                  — lint + test + preview publish on push/PR
-  preview-approved.yml    — publish only on approved PRs (safer)
+  ci.yml        — lint + test + preview publish on push/PR
 ```
 
 ## pkg.pr.new notes
