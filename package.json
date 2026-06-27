@@ -24,8 +24,8 @@
     "lint": "oxlint . --format=github",
     "format": "oxfmt .",
     "format:check": "oxfmt --check .",
-    "publish:preview": "npx pkg-pr-new publish --packageManager=bun --comment=update",
-    "publish:preview:sha": "npx pkg-pr-new publish --packageManager=bun --comment=update --commentWithSha",
+    "publish:preview": "pkg-pr-new publish --packageManager=bun --comment=update",
+    "publish:preview:sha": "pkg-pr-new publish --packageManager=bun --comment=update --commentWithSha",
     "actions-up": "actions-up",
     "fallow": "fallow",
     "fallow:dead": "fallow dead-code",
@@ -39,6 +39,7 @@
     "fallow": "^2.102.0",
     "oxfmt": "^0.54.0",
     "oxlint": "^1.71.0",
+    "pkg-pr-new": "^0.0.75",
     "simple-git-hooks": "^2.13.1",
     "typescript": "^6.0.3"
   },
