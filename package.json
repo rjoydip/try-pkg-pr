@@ -35,7 +35,6 @@
     "fallow:dupes": "fallow dupes",
     "fallow:health": "fallow health --format badge > .artifacts/fallow-health.svg; exit 0"
   },
-  "dependencies": {},
   "devDependencies": {
     "actions-up": "^1.14.3",
     "bun-types": "^1.3.14",
