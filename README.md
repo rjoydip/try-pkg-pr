@@ -4,6 +4,7 @@
 [![pkg.pr.new](https://pkg.pr.new/badge/rjoydip/try-pkg-pr)](https://pkg.pr.new/~/rjoydip/try-pkg-pr)
 [![License](https://img.shields.io/github/license/rjoydip/try-pkg-pr)](./LICENSE)
 [![Bun](https://img.shields.io/badge/Bun-1.3+-green)](https://bun.sh)
+[![Fallow Health](.artifacts/fallow-health.svg)](https://docs.fallow.tools/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-6.0+-blue)](https://www.typescriptlang.org/)
 
 A minimal **Bun**-based library pre-wired for
